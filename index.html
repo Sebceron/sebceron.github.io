@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Juan Sebastián Jiménez Cerón | Portafolio</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -16,7 +17,7 @@
     }
     header {
       text-align: center;
-      margin-bottom: 3rem;
+      margin-bottom: 2rem;
       animation: fadeIn 1s ease-out;
     }
     header h1 {
@@ -27,6 +28,16 @@
     header p {
       font-size: 1.2rem;
       color: #555;
+    }
+    .profile-pic {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    .profile-pic img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
     section {
       max-width: 800px;
@@ -88,6 +99,10 @@
     <p>Data Scientist en formación | Python Developer | Apasionado por los datos y la automatización</p>
   </header>
 
+  <div class="profile-pic">
+    <img src="profile.jpg" alt="Foto de perfil de Juan Sebastián">
+  </div>
+
   <section>
     <h2>🧠 Sobre mí</h2>
     <p>Actualmente me encuentro formándome como científico de datos, con experiencia en proyectos de scraping, visualización interactiva y análisis exploratorio. Mi enfoque está en transformar datos crudos en historias y soluciones impactantes.</p>
@@ -95,6 +110,7 @@
 
   <section>
     <h2>📊 Proyectos Destacados</h2>
+
     <div class="proyecto">
       <h3>📙 Web Scraping de Libros</h3>
       <p>Scraping de datos con Python y BeautifulSoup, visualización interactiva con Streamlit y gráficos con Plotly.</p>
@@ -103,12 +119,33 @@
         <li><a href="https://projects-gfn7i7dxbxmrwrpnn6luqr.streamlit.app/" target="_blank">Dashboard Interactivo</a></li>
       </ul>
     </div>
+
+    <div class="proyecto">
+      <h3>🪜 Limpieza de Datos con Pandas</h3>
+      <p>Proyecto enfocado en la limpieza y transformación de datos reales para análisis posterior.</p>
+      <ul>
+        <li><a href="https://github.com/sebceron/proyecto-limpieza-datos" target="_blank">Repositorio en GitHub</a></li>
+        <li><a href="#" target="_blank">Demo o Visualización</a></li>
+      </ul>
+    </div>
+
+  </section>
+
+  <section>
+    <h2>🛠️ Habilidades Técnicas</h2>
+    <ul>
+      <li>Python, Pandas, NumPy, Scikit-learn</li>
+      <li>Web Scraping: BeautifulSoup, Requests, Selenium</li>
+      <li>Visualización: Plotly, Matplotlib, Streamlit</li>
+      <li>Git, GitHub, GitHub Pages</li>
+      <li>SQL básico, lógica de datos</li>
+    </ul>
   </section>
 
   <section>
     <h2>📢 Contacto</h2>
     <p>GitHub: <a href="https://github.com/sebceron" target="_blank">sebceron</a></p>
-    <p>Email: comprastecnologicas1@gmail.com</p>
+    <p>Email: juansebastian@email.com</p>
   </section>
 
   <footer>
@@ -117,4 +154,5 @@
 </body>
 </html>
 
-"""probar pagina: https://sebceron.github.io/"""
+
+"""probar_pagina:https://sebceron.github.io/"""

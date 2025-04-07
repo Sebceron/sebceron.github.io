@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Juan Sebastián Jiménez Cerón | Portafolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #f5f7fa;
+      color: #1e1e2f;
+      padding: 2rem;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 3rem;
+      animation: fadeIn 1s ease-out;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      font-weight: 800;
+      color: #222;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+    section {
+      max-width: 800px;
+      margin: 0 auto 4rem;
+      animation: fadeInUp 1s ease-out;
+    }
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 0.3rem;
+      color: #1e1e2f;
+    }
+    .proyecto {
+      margin-bottom: 2rem;
+      padding: 1rem;
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+      transition: transform 0.2s ease-in-out;
+    }
+    .proyecto:hover {
+      transform: translateY(-4px);
+    }
+    .proyecto h3 {
+      margin-bottom: 0.5rem;
+      font-size: 1.4rem;
+      color: #0077cc;
+    }
+    .proyecto p {
+      margin-bottom: 0.5rem;
+      color: #444;
+    }
+    .proyecto a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+    .proyecto a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #888;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Juan Sebastián Jiménez Cerón</h1>
+    <p>Data Scientist en formación | Python Developer | Apasionado por los datos y la automatización</p>
+  </header>
+
+  <section>
+    <h2>🧠 Sobre mí</h2>
+    <p>Actualmente me encuentro formándome como científico de datos, con experiencia en proyectos de scraping, visualización interactiva y análisis exploratorio. Mi enfoque está en transformar datos crudos en historias y soluciones impactantes.</p>
+  </section>
+
+  <section>
+    <h2>📊 Proyectos Destacados</h2>
+    <div class="proyecto">
+      <h3>📙 Web Scraping de Libros</h3>
+      <p>Scraping de datos con Python y BeautifulSoup, visualización interactiva con Streamlit y gráficos con Plotly.</p>
+      <ul>
+        <li><a href="https://github.com/sebceron/web_scraping_books" target="_blank">Repositorio en GitHub</a></li>
+        <li><a href="https://juan-sebastian-jimenez-ceron-web-scraping-books.streamlit.app" target="_blank">Dashboard Interactivo</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>📢 Contacto</h2>
+    <p>GitHub: <a href="https://github.com/sebceron" target="_blank">sebceron</a></p>
+    <p>Email: comprastecnologicas1@gmail.com</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Juan Sebastián Jiménez Cerón. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
